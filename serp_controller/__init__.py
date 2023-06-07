@@ -10,7 +10,7 @@ from flatland_msgs.msg import Collisions
 import math
 
 # To change the map go to the file world/layer.yaml
-# There you can choose one of three maps
+# There you can choose one of four maps
 # You can also add your own map in an image to the world folder and add it to the layer file
 # To understand the layer file configuration, consult https://flatland-simulator.readthedocs.io/en/latest/core_functions/layers.html
 
@@ -70,9 +70,9 @@ class SerpController(Node):
         ########################################
         ## Example 2: A robot that moves in a circle
         # A positive lenear velocity makes the robot move forward
-        # A negative angular velocitiy makes the robot turn clockwise
+        # A positive angular velocitiy makes the robot turn counter-clockwise
 
-        #self.change_robot_speeds(self.pub, 0.05, -1.0)
+        #self.change_robot_speeds(self.pub, 0.4, 1.0)
         ########################################
 
         ########################################
@@ -84,11 +84,11 @@ class SerpController(Node):
         #middle_laser_range = data.ranges[math.floor(num_lasers / 2 + 0.5)]
         ## if the distance reading is invalid or the distance is below the maximum allowed distance
         #if( not (middle_laser_range >= data.range_min and middle_laser_range <= data.range_max) or middle_laser_range < max_distance): 
-        #   # ROTATE
+        #    # ROTATE
         #    self.change_robot_speeds(self.pub, 0.0, -2.0)
         #else:
-        #   # MOVE FORWARD
-        #    self.change_robot_speeds(self.pub, 1.0, -2.0)
+        #    # MOVE FORWARD
+        #    self.change_robot_speeds(self.pub, 1.0, 0.0)
         ########################################
 
         return

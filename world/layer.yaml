@@ -1,11 +1,17 @@
-# Maze map settings
+# Simple map settings
 
 # source file
-image: maze.png
+image: simple_map.png
 # scale
 resolution: 0.025
 # position of bottom left corner of image
-origin: [-0.8, -4.2, 0.0]
+origin: [-4.5, -2.6, 0.0]
+
+# Maze map settings
+
+#image: maze.png
+#resolution: 0.025
+#origin: [-0.8, -4.2, 0.0]
 
 # Racetrack map settings
 
