@@ -1,0 +1,26 @@
+# Maze map settings
+
+# source file
+image: maze.png
+# scale
+resolution: 0.025
+# position of bottom left corner of image
+origin: [-0.8, -4.2, 0.0]
+
+# Racetrack map settings
+
+#image: racetrack.png
+#resolution: 0.013
+#origin: [-0.46, -2.0, 0.0]
+
+# House map settings
+
+#image: house.png
+#resolution: 0.01
+#origin: [-4.2, -3.35, 0.0]
+
+# If you add your own image, place the settings here 
+
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
