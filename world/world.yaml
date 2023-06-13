@@ -6,4 +6,4 @@ layers:
 models:
   - name: serp
     model: "serp.model.yaml"
-    pose: [0.0, 0.0, -1.57079632679]
+    pose: [0.0, 0.0, 0.0]

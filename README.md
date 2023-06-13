@@ -22,3 +22,17 @@ Run the package:
 ```
 ros2 launch serp_teleop serp_teleop.launch.py
 ```
+
+## Code examples
+
+Example 1: A robot that moves forward
+
+![1](images/1.gif)
+
+Example 2: A robot that moves in a circle
+
+![2](images/2.gif)
+
+Example 3: A robot that moves in circles, and turns to the right when it finds an obstacle in front of it
+
+![3](images/3.gif)
