@@ -20,7 +20,7 @@ source install/setup.bash
 
 Run the package:
 ```
-ros2 launch serp_teleop serp_controller.launch.py
+ros2 launch serp_controller serp_controller.launch.py
 ```
 
 ## Code examples
