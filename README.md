@@ -33,6 +33,6 @@ Example 2: A robot that moves in a circle
 
 ![2](images/2.gif)
 
-Example 3: A robot that moves in circles, and turns to the right when it finds an obstacle in front of it
+Example 3: A robot that moves forward and turns to the right when it finds an obstacle in front of it
 
 ![3](images/3.gif)
